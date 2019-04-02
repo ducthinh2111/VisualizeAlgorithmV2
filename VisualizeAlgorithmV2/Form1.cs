@@ -87,7 +87,7 @@ namespace VisualizeAlgorithmV2
                         break;
                 }
                 sa.finishDrawing();
-                TimeExecute.Text = "Run time: " + sa.timeExecute + " ms";
+                TimeExecute.Text = "Run time: " + sa.timeExecute + " milisecond";
                 ArrayAccesses.Text = "Array Accesses: " + sa.arrayAccesses.ToString();
             };
             thread = new Thread(ts);
